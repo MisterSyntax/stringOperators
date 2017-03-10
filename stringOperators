@@ -1,0 +1,15 @@
+String.slice(start,[optional]end)
+    'cat'.slice(1) = 'at';
+    'cat'.slice(0,1) = 'c'
+
+
+String.charAt(charNum);
+    'cat'.charAt(0); //cat
+
+String.split(delimiter,[optional] limit) //returns an array of strings, and optionally how many times to split
+    'the cat in the hat'.split(" ");//["the", "cat", "in", "the", "hat"]
+    'the cat in the hat'.split(" ", 2);//["the","cat"]
+
+String.replace(REGEX,Replace);
+    //the following makes pig Latin
+    return str.replace(/(\w)(\w*)/g,'$2$1ay');
